@@ -1,4 +1,4 @@
-name: kustomize-check
+name: sebagarayco-kustomize-check
 author: anarcher@gmail.com
 description: 'Github action for kustomize checking.'
 branding: 
