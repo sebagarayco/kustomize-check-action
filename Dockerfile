@@ -16,8 +16,8 @@ ADD . .
 RUN go $BUILD_MODE $BUILD_ARGS $BUILD_TAG -v $BUILD_PKG
 
 FROM alpine:3
-ARG KUSTOMIZE_VERSION=3.5.4
-ARG KUBEVAL_VERSION=0.14.0
+ARG KUSTOMIZE_VERSION=5.1.0
+ARG KUBEVAL_VERSION=0.16.0
 
 RUN apk add --update --no-cache bash ca-certificates curl git jq openssh
 
